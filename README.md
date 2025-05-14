@@ -23,7 +23,7 @@ The function InvokePgSqlCmd uses these parameters:
 * -Port - the port on the server of the postgres database
 * -Database - the database to connect with
 * -User - the database user that connects to the database
-* -Variable - an array of variable-to-value mappings in the form "<variable>=<value>". Each occurence of $(<variable>) in the SQL statement will be replaced by the corresponding <value>.
+* -Variable - an array of variable-to-value mappings in the form "<variable>=<value>". Every occurence of $(<variable>) in the SQL statement will be replaced by the corresponding <value>.
 
 If the parameter -Query is not specified, the -InputFile is read.
 
